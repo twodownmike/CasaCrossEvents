@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Casa Cross Events — Styled Photoshoot Experiences in Utah",
   description:
-    "Casa Cross coordinates styled photoshoot experiences where photographers reserve seats, collaborate with vendors, and grow their portfolios.",
+    "Casa Cross coordinates styled photoshoot experiences where photographers, models, and vendors create portfolio-ready imagery together.",
 };
 
 export default function RootLayout({

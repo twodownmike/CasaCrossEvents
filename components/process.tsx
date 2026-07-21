@@ -5,12 +5,12 @@ const STEPS = [
   {
     n: "I",
     t: "Announce",
-    d: "We release a styled shoot concept with the date, location, visual direction, and available photographer spots.",
+    d: "We release a styled shoot concept with the date, location, visual direction, and available creative spots.",
   },
   {
     n: "II",
     t: "Reserve",
-    d: "Photographers purchase a seat to attend, create, and add a curated story to their portfolio.",
+    d: "Photographers can reserve paid spots, while vendors and models connect with us about TFP collaboration.",
   },
   {
     n: "III",
@@ -20,7 +20,7 @@ const STEPS = [
   {
     n: "IV",
     t: "Share",
-    d: "Photographers edit and share their galleries so vendors, models, and creatives can use the images for mutual growth.",
+    d: "Final images become portfolio and marketing content for the photographers, vendors, models, and creatives involved.",
   },
 ];
 

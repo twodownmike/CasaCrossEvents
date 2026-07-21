@@ -6,9 +6,9 @@ import { Reveal } from "./reveal";
 const ITEMS = [
   {
     num: "01",
-    title: "Photographer Seats",
+    title: "Creative Spots",
     img: IMG.svc1,
-    desc: "Photographers reserve a spot in a fully styled shoot designed to create refined, portfolio-ready imagery.",
+    desc: "Photographers, models, and vendors join a fully styled shoot designed to create refined, portfolio-ready imagery.",
   },
   {
     num: "02",
@@ -20,7 +20,7 @@ const ITEMS = [
     num: "03",
     title: "Styled Scenarios",
     img: IMG.svc3,
-    desc: "Wedding-inspired, bachelorette, editorial, and seasonal scenes give photographers variety without client-day pressure.",
+    desc: "Wedding-inspired, bachelorette, editorial, and seasonal scenes give the full creative team variety without client-day pressure.",
   },
   {
     num: "04",
@@ -67,7 +67,7 @@ export function Services() {
             </Reveal>
             <AnimatedHeading
               as="h2"
-              text="Styled shoots for photographers"
+              text="Styled shoots for creatives"
               italicWords={[1]}
               scriptWords={[3]}
               style={{
@@ -92,8 +92,9 @@ export function Services() {
               }}
             >
               We are not a wedding or private event planning company. Casa Cross
-              creates styled photoshoot experiences so photographers can build
-              their portfolios alongside a thoughtfully gathered creative team.
+              creates styled photoshoot experiences so photographers, models,
+              and vendors can build their portfolios alongside a thoughtfully
+              gathered creative team.
             </p>
           </Reveal>
         </div>

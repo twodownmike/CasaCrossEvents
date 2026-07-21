@@ -87,9 +87,10 @@ export function Philosophy() {
               }}
             >
               Casa Cross exists to create portfolio-building styled photoshoots
-              for photographers. Our owner coordinates the concept, venue,
-              vendors, styling details, models, and timeline so each seat feels
-              intentional from the first moodboard to the final gallery.
+              for photographers, models, and vendors. Our owner coordinates the
+              concept, venue, creative team, styling details, and timeline so
+              each shoot feels intentional from the first moodboard to the final
+              gallery.
             </p>
           </Reveal>
           <Reveal delay={550}>
@@ -104,9 +105,10 @@ export function Philosophy() {
                 textWrap: "pretty",
               }}
             >
-              Photographers pay to attend and create, while many vendors and
-              models participate through TFP (trade for photos), so everyone
-              leaves with fresh imagery and stronger creative relationships.
+              Some creatives reserve paid spots, while many vendors and models
+              participate through TFP (trade for photos). The goal is the same:
+              everyone leaves with fresh imagery and stronger creative
+              relationships.
             </p>
           </Reveal>
           <Reveal

@@ -83,8 +83,8 @@ export function Hero() {
               }}
             >
               Casa Cross coordinates styled photoshoot experiences where
-              photographers reserve a spot, step into a fully styled scene, and
-              leave with intentional content for their portfolio.
+              photographers, models, and vendors step into a fully styled scene
+              and leave with intentional content for their portfolios.
             </p>
           </Reveal>
           <Reveal
@@ -110,7 +110,7 @@ export function Hero() {
                 borderRadius: 999,
               }}
             >
-              Reserve a spot
+              Join a shoot
             </a>
             <a
               href="#gallery"

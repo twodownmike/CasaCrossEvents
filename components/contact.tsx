@@ -70,9 +70,9 @@ export function Contact() {
               marginInline: "auto",
             }}
           >
-            Photographers can ask about upcoming paid seats. Vendors and models
-            can reach out about future TFP collaborations as Casa Cross grows
-            each styled shoot concept.
+            Photographers can ask about upcoming paid spots. Vendors and models
+            can reach out about future TFP collaborations and portfolio-building
+            opportunities as Casa Cross grows each styled shoot concept.
           </p>
         </Reveal>
         <Reveal
