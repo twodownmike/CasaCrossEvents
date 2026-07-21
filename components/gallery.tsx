@@ -16,14 +16,15 @@ const TILES: Array<{ src: string; span: "tall" | "wide" | "normal" }> = [
 ];
 
 const WORDS = [
+  "Photographers",
   "Florals",
-  "Stationery",
-  "Cake",
+  "Models",
+  "Venue",
   "Linens",
   "Tabletop",
-  "Film",
-  "Florals",
-  "Calligraphy",
+  "TFP",
+  "Portfolio",
+  "Community",
 ];
 
 export function Gallery() {
@@ -48,14 +49,14 @@ export function Gallery() {
                 marginBottom: 24,
               }}
             >
-              ── A Living Portfolio
+              ── Past Styled Shoots
             </div>
           </Reveal>
           <AnimatedHeading
             as="h2"
-            text="Moments we've made together"
-            italicWords={[1]}
-            scriptWords={[3]}
+            text="The kind of work you can create"
+            italicWords={[3]}
+            scriptWords={[6]}
             style={{
               fontFamily: "var(--ff-display)",
               fontWeight: "var(--fw-display)" as unknown as number,

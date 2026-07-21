@@ -4,23 +4,23 @@ import { Reveal } from "./reveal";
 const STEPS = [
   {
     n: "I",
-    t: "Inquire",
-    d: "Reach out with your vision, your vendors, or your wildest curiosity. We'll start with a conversation.",
+    t: "Announce",
+    d: "We release a styled shoot concept with the date, location, visual direction, and available photographer spots.",
   },
   {
     n: "II",
-    t: "Design",
-    d: "We craft a mood, a palette, and a guest list of artists. Every detail considered, every collaborator chosen with care.",
+    t: "Reserve",
+    d: "Photographers purchase a seat to attend, create, and add a curated story to their portfolio.",
   },
   {
     n: "III",
-    t: "Gather",
-    d: "The day arrives. Florals bloom. Tables are set. The light is right. We make something to remember together.",
+    t: "Coordinate",
+    d: "Casa Cross handles the venue, vendor team, models, styling, timeline, and shoot flow before the day begins.",
   },
   {
     n: "IV",
     t: "Share",
-    d: "Imagery is delivered for every contributor — a body of work to grow each business that touched the day.",
+    d: "Photographers edit and share their galleries so vendors, models, and creatives can use the images for mutual growth.",
   },
 ];
 
@@ -51,9 +51,9 @@ export function Process() {
           </Reveal>
           <AnimatedHeading
             as="h2"
-            text="Slow steady together"
+            text="From concept to gallery"
             italicWords={[1]}
-            scriptWords={[2]}
+            scriptWords={[3]}
             style={{
               fontFamily: "var(--ff-display)",
               fontWeight: "var(--fw-display)" as unknown as number,

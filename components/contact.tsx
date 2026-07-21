@@ -41,14 +41,14 @@ export function Contact() {
               marginBottom: 28,
             }}
           >
-            ── Begin a Conversation
+            ── Join a Future Shoot
           </div>
         </Reveal>
         <AnimatedHeading
           as="h2"
-          text="Let's create something lovely"
-          italicWords={[2]}
-          scriptWords={[3]}
+          text="Ready to build your portfolio?"
+          italicWords={[3]}
+          scriptWords={[4]}
           style={{
             fontFamily: "var(--ff-display)",
             fontWeight: "var(--fw-display)" as unknown as number,
@@ -70,9 +70,9 @@ export function Contact() {
               marginInline: "auto",
             }}
           >
-            Whether you&apos;re a vendor hoping to be featured or a creative who
-            wants to be part of a future styled shoot — we&apos;d love to hear from
-            you.
+            Photographers can ask about upcoming paid seats. Vendors and models
+            can reach out about future TFP collaborations as Casa Cross grows
+            each styled shoot concept.
           </p>
         </Reveal>
         <Reveal

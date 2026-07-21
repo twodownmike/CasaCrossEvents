@@ -4,7 +4,7 @@ import { ParallaxImage } from "./parallax-image";
 import { Reveal } from "./reveal";
 
 const STATS: Array<[string, string]> = [
-  ["25+", "Vendors featured"],
+  ["25+", "Creative collaborators"],
 ];
 
 export function Philosophy() {
@@ -57,12 +57,12 @@ export function Philosophy() {
                 marginBottom: 24,
               }}
             >
-              ── Our Philosophy
+              ── The Idea
             </div>
           </Reveal>
           <AnimatedHeading
             as="h2"
-            text="Stories told slowly with care"
+            text="A styled shoot, fully coordinated"
             italicWords={[2]}
             scriptWords={[3]}
             style={{
@@ -86,10 +86,10 @@ export function Philosophy() {
                 textWrap: "pretty",
               }}
             >
-              Casa Cross was born out of a love for the people behind the work
-              — the florist arranging at sunrise, the calligrapher curling each
-              letter by hand, the planner threading a hundred small decisions
-              into a single quiet moment.
+              Casa Cross exists to create portfolio-building styled photoshoots
+              for photographers. Our owner coordinates the concept, venue,
+              vendors, styling details, models, and timeline so each seat feels
+              intentional from the first moodboard to the final gallery.
             </p>
           </Reveal>
           <Reveal delay={550}>
@@ -104,9 +104,9 @@ export function Philosophy() {
                 textWrap: "pretty",
               }}
             >
-              Every styled shoot we host is an invitation: a chance to gather,
-              to create together, and to honor the artistry of our local
-              community.
+              Photographers pay to attend and create, while many vendors and
+              models participate through TFP (trade for photos), so everyone
+              leaves with fresh imagery and stronger creative relationships.
             </p>
           </Reveal>
           <Reveal

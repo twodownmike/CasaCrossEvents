@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Casa Cross Events — Styled Photoshoots in Utah",
+  title: "Casa Cross Events — Styled Photoshoot Experiences in Utah",
   description:
-    "Casa Cross hosts beautiful, elegant styled photoshoots that lift up the local creators and vendors who shape our community.",
+    "Casa Cross coordinates styled photoshoot experiences where photographers reserve seats, collaborate with vendors, and grow their portfolios.",
 };
 
 export default function RootLayout({

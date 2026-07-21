@@ -6,27 +6,27 @@ import { Reveal } from "./reveal";
 const ITEMS = [
   {
     num: "01",
-    title: "Styled Shoot Concepts",
+    title: "Photographer Seats",
     img: IMG.svc1,
-    desc: "Curated themes, palettes, and visual direction created to give vendors beautiful portfolio content.",
+    desc: "Photographers reserve a spot in a fully styled shoot designed to create refined, portfolio-ready imagery.",
   },
   {
     num: "02",
-    title: "Vendor Collaboration",
+    title: "Vendor Curation",
     img: IMG.svc2,
-    desc: "Thoughtful shoot planning that brings photographers, florists, models, venues, and makers together.",
+    desc: "We coordinate venues, florals, beauty, wardrobe, rentals, and details with local collaborators, often through TFP.",
   },
   {
     num: "03",
-    title: "Portfolio Content",
+    title: "Styled Scenarios",
     img: IMG.svc3,
-    desc: "Styled scenes and details designed to help local creatives refresh their galleries and marketing.",
+    desc: "Wedding-inspired, bachelorette, editorial, and seasonal scenes give photographers variety without client-day pressure.",
   },
   {
     num: "04",
-    title: "Community Features",
+    title: "Shared Galleries",
     img: IMG.svc4,
-    desc: "A shared space for participating vendors to be highlighted through cohesive styled-shoot imagery.",
+    desc: "Participating vendors and models receive image access so the whole creative team can market the work.",
   },
 ];
 
@@ -62,14 +62,14 @@ export function Services() {
                   marginBottom: 24,
                 }}
               >
-                ── What We Do
+                ── What We Coordinate
               </div>
             </Reveal>
             <AnimatedHeading
               as="h2"
-              text="A studio of soft intention"
-              italicWords={[3]}
-              scriptWords={[4]}
+              text="Styled shoots for photographers"
+              italicWords={[1]}
+              scriptWords={[3]}
               style={{
                 fontFamily: "var(--ff-display)",
                 fontWeight: "var(--fw-display)" as unknown as number,
@@ -91,9 +91,9 @@ export function Services() {
                 textWrap: "pretty",
               }}
             >
-              Every shoot is shaped around the vendors involved — a slow,
-              considered process that leaves space for beauty to find its own
-              form.
+              We are not a wedding or private event planning company. Casa Cross
+              creates styled photoshoot experiences so photographers can build
+              their portfolios alongside a thoughtfully gathered creative team.
             </p>
           </Reveal>
         </div>

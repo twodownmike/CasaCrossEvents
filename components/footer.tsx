@@ -48,7 +48,7 @@ export function Footer() {
             paddingBottom: 4,
           }}
         >
-          Vendor Portal →
+          Shoot Portal →
         </a>
       </div>
     </footer>

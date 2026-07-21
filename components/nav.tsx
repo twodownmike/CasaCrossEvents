@@ -4,7 +4,7 @@ import { useScrollY } from "@/lib/hooks";
 
 const LINKS: Array<[string, string]> = [
   ["About", "#philosophy"],
-  ["Services", "#services"],
+  ["Shoots", "#services"],
   ["Gallery", "#gallery"],
   ["Process", "#process"],
   ["Contact", "#contact"],
@@ -92,7 +92,7 @@ export function Nav() {
             borderLeft: "1px solid var(--c-line)",
           }}
         >
-          Sign in
+          Portal
         </a>
       </div>
     </nav>

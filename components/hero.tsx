@@ -52,12 +52,12 @@ export function Hero() {
                   background: "var(--c-muted)",
                 }}
               />
-              Styled Photoshoots · Est. Utah
+              Portfolio-building styled photoshoots · Utah
             </div>
           </Reveal>
           <AnimatedHeading
             as="h1"
-            text="Where light meets intention"
+            text="Portfolio scenes made beautiful"
             italicWords={[1, 2]}
             scriptWords={[3]}
             delay={400}
@@ -82,8 +82,9 @@ export function Hero() {
                 textWrap: "pretty",
               }}
             >
-              Casa Cross hosts beautiful, elegant styled photoshoots that lift
-              up the local creators and vendors who shape our community.
+              Casa Cross coordinates styled photoshoot experiences where
+              photographers reserve a spot, step into a fully styled scene, and
+              leave with intentional content for their portfolio.
             </p>
           </Reveal>
           <Reveal
@@ -109,7 +110,7 @@ export function Hero() {
                 borderRadius: 999,
               }}
             >
-              Plan a shoot
+              Reserve a spot
             </a>
             <a
               href="#gallery"
@@ -124,7 +125,7 @@ export function Hero() {
                 paddingBottom: 4,
               }}
             >
-              View our work
+              See past shoots
             </a>
           </Reveal>
         </div>
