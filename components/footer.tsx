@@ -20,7 +20,7 @@ export function Footer() {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/casa-cross-logo.png"
+          src="/casa-cross-logo-transparent.png"
           alt="Casa Cross Events"
           style={{ height: 56 }}
         />

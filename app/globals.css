@@ -81,6 +81,7 @@ img {
   .philosophy-grid,
   .services-header,
   .services-grid,
+  .model-detail-grid,
   .gallery-grid,
   .process-grid {
     grid-template-columns: 1fr !important;
@@ -92,6 +93,9 @@ img {
     grid-template-columns: repeat(2, 1fr) !important;
   }
   .process-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .model-gallery-grid {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }

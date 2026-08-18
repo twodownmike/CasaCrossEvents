@@ -3,11 +3,12 @@
 import { useScrollY } from "@/lib/hooks";
 
 const LINKS: Array<[string, string]> = [
-  ["About", "#philosophy"],
-  ["Shoots", "#services"],
-  ["Gallery", "#gallery"],
-  ["Process", "#process"],
-  ["Contact", "#contact"],
+  ["About", "/#philosophy"],
+  ["Shoots", "/#services"],
+  ["Gallery", "/#gallery"],
+  ["Models", "/models"],
+  ["Process", "/#process"],
+  ["Contact", "/#contact"],
 ];
 
 export function Nav() {
@@ -35,7 +36,7 @@ export function Nav() {
       }}
     >
       <a
-        href="#top"
+        href="/#top"
         style={{
           display: "flex",
           alignItems: "center",
