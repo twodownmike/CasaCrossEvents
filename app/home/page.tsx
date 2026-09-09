@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "Casa Cross | Create. Connect. Grow.",
-  description: "Welcome to Casa Cross. Discover styled photoshoots, access Casa Cross CRM, and meet Creative Corner, our next chapter.",
+  description: "Welcome to Casa Cross. Discover styled photoshoots, access the Casa Cross Portal, and meet Creative Corner, our next chapter.",
   alternates: { canonical: "https://casacross.org" },
   openGraph: {
     title: "Casa Cross | Create. Connect. Grow.",
@@ -22,7 +22,7 @@ export default function CasaCrossHome() {
         <a className={styles.wordmark} href="/home" aria-label="Casa Cross home">Casa Cross<span>CREATE. CONNECT. GROW.</span></a>
         <nav aria-label="Main navigation">
           <a href="https://events.casacross.org">Events</a>
-          <a href="https://crm.casacross.org">CRM</a>
+          <a href="https://portal.casacross.org">Portal</a>
           <a href="#creative-corner">Creative Corner</a>
         </nav>
       </header>
@@ -51,9 +51,9 @@ export default function CasaCrossHome() {
               <div><p className={styles.label}>CREATE TOGETHER</p><h3>Events</h3><p>Thoughtfully styled photoshoots that bring photographers, models, and vendors together to create beautiful portfolio imagery.</p><span className={styles.action}>Explore styled shoots <span aria-hidden="true">↗</span></span></div>
               <div className={styles.thumbnail}><Image src="/portfolio/gallery-fruit-florals.jpg" alt="Flowers and fruit arranged for a Casa Cross styled photoshoot" fill sizes="(max-width: 600px) 90px, 150px" /></div>
             </a>
-            <a className={styles.destination} href="https://crm.casacross.org">
+            <a className={styles.destination} href="https://portal.casacross.org">
               <span className={styles.number}>02</span>
-              <div><p className={styles.label}>YOUR WORKSPACE</p><h3>CRM</h3><p>Already part of Casa Cross? Sign in to your workspace and continue where you left off.</p><span className={styles.action}>Go to CRM <span aria-hidden="true">↗</span></span></div>
+              <div><p className={styles.label}>YOUR WORKSPACE</p><h3>Portal</h3><p>Already part of Casa Cross? Sign in to your workspace and continue where you left off.</p><span className={styles.action}>Go to Portal <span aria-hidden="true">↗</span></span></div>
               <span className={styles.crmMark} aria-hidden="true">CC</span>
             </a>
             <a className={styles.destination} href="#creative-corner">
