@@ -19,7 +19,9 @@ export default function CasaCrossHome() {
     <div className={styles.home}>
       <a className={styles.skip} href="#destinations">Skip to destinations</a>
       <header className={styles.header}>
-        <a className={styles.wordmark} href="/home" aria-label="Casa Cross home">Casa Cross<span>CREATE. CONNECT. GROW.</span></a>
+        <a className={styles.wordmark} href="/home" aria-label="Casa Cross home">
+          <Image src="/casa-cross-logo-transparent.png" alt="Casa Cross Events" width={840} height={373} priority className={styles.logo} />
+        </a>
         <nav aria-label="Main navigation">
           <a href="https://events.casacross.org">Events</a>
           <a href="https://portal.casacross.org">Portal</a>
@@ -72,7 +74,9 @@ export default function CasaCrossHome() {
         </section>
       </main>
       <footer className={styles.footer}>
-        <a className={styles.wordmark} href="/home">Casa Cross</a>
+        <a className={styles.wordmark} href="/home" aria-label="Casa Cross home">
+          <Image src="/casa-cross-logo-transparent.png" alt="Casa Cross Events" width={840} height={373} className={styles.logo} />
+        </a>
         <p>Create. Connect. Grow.</p>
         <span>&copy; {new Date().getFullYear()} Casa Cross</span>
       </footer>
